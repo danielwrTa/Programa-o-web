@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.fundo-azul {
+    background-color: lightblue;
+}
+
+.paragrafo-verde {
+    background-color: lightgreen;
+}
+
+.imagem-repetida {
+    background-image: url("cavalo.webp");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.imagem-vertical {
+    background-image: url("cavalo.webp");
+    background-repeat: repeat-y;
+}
+
+.imagem-nao-repetida {
+    background-image: url("cavalo.webp");
+    background-repeat: no-repeat;
+}
+
+.imagem-centralizada {
+    background-image: url("cavalo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fundo-completo {
+    background-color: yellow;
+    background-image: url("cavalo.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+}
